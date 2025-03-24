@@ -6,11 +6,10 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool:mycompunter
 
 steps:
-- script: echo Hello, world!
+ script: echo Hello, world!
   displayName: 'Run a one-line script'
 
 - script: |
